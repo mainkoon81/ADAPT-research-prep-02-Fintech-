@@ -1,1 +1,53 @@
-# UCD-DCU-research-prep-02
+# Intro to Fintech
+
+### I. Robo-Advising
+
+
+
+
+
+
+
+### II. Goal based Investment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
