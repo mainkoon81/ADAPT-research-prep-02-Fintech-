@@ -23,7 +23,7 @@
      - Displaying **financial situation**
      - Facilitating **transfers**
      - Directing your savings to the **right portfolio**!
-> Portfolio Theory: 
+> Portfolio Theory and Robo Advisor: 
 
 **For a given expected return** you want to have the lowest risk. **For a given risk** you want to have the highest expected return. How to take **the least risk** for the expected return that you are targeting?
  - __Two Axioms of Economics:
