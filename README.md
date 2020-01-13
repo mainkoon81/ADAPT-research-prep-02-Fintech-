@@ -8,7 +8,7 @@
      - The benefit came at a cost
      - Employers should maintain assets sufficient for the liabilities..but do they do? GM? Chrysler? 
      - No guarantee of reliable delivery??? What are we going to do about the solvency of the pension plans? 
-   - So these days, we were transitioning out of those DBP into "Defined Contribution Plans" - There was a promise there, you're going to get this benefits!
+   - So these days, we were transitioning out of the DBP into "Defined Contribution Plans" - There was a promise there, such as "you're going to get this benefits!"
      - `401K Plan`
        - :The tax code encourages "Do-it-Yourself retirement savings".
        - :A sort of **"pre-tax"** (at the end of the month, money is taken out of my paycheck) goes into the mutual funds and then my employer also pitches in some money too. All that money goes into the mutual funds..then it grows...hopefully
@@ -23,7 +23,26 @@
      - Displaying **financial situation**
      - Facilitating **transfers**
      - Directing your savings to the **right portfolio**!
-> Portfolio:
+> Portfolio Theory: 
+
+**For a given expected return** you want to have the lowest risk. **For a given risk** you want to have the highest expected return. How to take **the least risk** for the expected return that you are targeting?
+ - __Two Axioms of Economics:
+   - 1) people prefer more to less
+   - 2) people prefer more to less but they would get **decreasing amount of utility** out of the next dollar as the more wealthy they get.
+     - So if you have a million bucks, the enjoyment you get out of another dollar is not as much as if you only had a hundred bucks...it means It's going up at a decreasing rate!
+     <img src="https://user-images.githubusercontent.com/31917400/72269204-160a1d80-361b-11ea-934e-4c36169fd37b.jpg"/>
+     
+ - __But people are in general going to be risk averse:
+   - Taking a pick: 
+     - [A] getting 1000 bucks for sure ? 
+     - [B] 0 or 2,000 bucks by gambling ?
+   - People in general will choose A, but what if the expected return of A is going down, down.. and when to stop? You become ambivalent between:
+     - [A] getting 970 bucks for sure ? Still Fine???
+     - [B] 0 or 2,000 bucks by gambling ?
+   - Reach the breaking point of 970: the `certainty equivalent` .. **still fine point**
+     - which tells us how much risk averse you are. If it's 960 then you are much more risky averse..
+     - which is the information that Robo-Advisor can use to customize your portfolio suggestion for you.
+ - __Robo-Advisor do `mean-variance optimization`    
 
 
 
