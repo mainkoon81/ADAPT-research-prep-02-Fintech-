@@ -77,11 +77,18 @@ Fraud, as you might expect, is a potential problem in the insurance industry. Ma
 
 The automation of claims, which of course could lead to happier policy holders, is another area where machine learning and it's an efficiency and speed may apply, automating, reporting, processing, and speeding along the customer experience.
 
-
 And finally, one of the most important areas of insurance, underwriting. Underwriters are those "human decision makers" who analyze data and, ultimately, make the decision of how to take on a given risk, and how to price it. Computers can aid that decision making process, they can flag risks in the process, and they can also point out inconsistencies in data that human underwriters may not be able to see. They can also check external sources, like social media, to verify accuracy of input data.
 
 
+## B. InsurTech Model Needed:
+ - 1.Product Design
+ - 2.Selling and Marketing
+ - 3.Underwrting(risk taking)
+ - 4.Policy Administration(servicing clients and policies)
+ - 5.Claim Management(paying out on insurance claims)
 
+
+ 
 
 
 
