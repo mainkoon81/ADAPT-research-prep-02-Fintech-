@@ -1,6 +1,6 @@
 # Intro to Fintech
 
-### I. Robo-Advising
+## I. Robo-Advising
 > Before Robo-Advisor
  - __For Rich:__ They would have investment portfolios and traditional advisors. So they'd be managing this portfolio of their money for themselves, for their family, for their retirement, and so on.
  - __For others:__ They wouldn't have financial advisors, or wouldn't even really be saving for their retirement so much. Instead, they depended on social security or pension plans such as "Defined Benefit Plan" and the pension was set by the formula, counting up the years of service.
@@ -50,11 +50,12 @@
 
 
 
-### II. Goal based Investment
+## II. Goal based Investment
 
 
 
-### III. Application: Insur-Tech & RealEstate-Tech  
+## III. Application: Insur-Tech & RealEstate-Tech  
+### InsurTech
 <img src="https://user-images.githubusercontent.com/31917400/72616503-05b1b580-392f-11ea-8cd1-8ece2f44fa68.jpg"/>
 
 
