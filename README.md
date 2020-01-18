@@ -83,6 +83,8 @@ The National Association of Insurance Commissioners indicates that only about 10
  - 3.Underwrting(risk taking)
  - 4.Policy Administration(servicing clients and policies)
  - 5.Claim Management(paying out on insurance claims)
+ <img src="https://user-images.githubusercontent.com/31917400/72667844-083c0a00-3a18-11ea-8596-359d0a633932.jpg"/>
+
 
 
  
