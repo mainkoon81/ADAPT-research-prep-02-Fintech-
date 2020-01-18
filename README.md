@@ -76,7 +76,6 @@ The National Association of Insurance Commissioners indicates that only about 10
  - **risk modeling**:, allowing insurers to analyze their claims data in order to predict risk better. Of course, the historical data in the form of the history of losses may not be the only data that are important in understanding how to price risk and how to predict the risk...then Insurers could create models to predict demand for their own products and also develop new products, and therefore understand how to price them, or determine their premium.
  - **underwriting**: is one of the most important areas of insurance, Underwriters are those "human decision makers" who analyze data and, ultimately, make the decision of how to take on a given risk, and how to price it. Computers can aid that decision making process, they can flag risks in the process, and they can also point out inconsistencies in data that human underwriters may not be able to see. They can also check external sources, like social media, to verify accuracy of input data.
 
-
 ## B. InsurTech Model Needed:
  - 1.Product Design
  - 2.Selling and Marketing
