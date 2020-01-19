@@ -85,6 +85,13 @@ The National Association of Insurance Commissioners indicates that only about 10
  <img src="https://user-images.githubusercontent.com/31917400/72667844-083c0a00-3a18-11ea-8596-359d0a633932.jpg"/>
 
 
+## C. ACTUARIAL MODELING
+> Inverse Problem: Finding a cause of a consequence
+ - result = K*f(cause) + error
+ - If we find the K matrix, then it gets easy to find a cause.
+
+Makov, Smith, and Liu (1996, p. 503) noted that “statistical methods with a Bayesian flavour, in particular credibility theory, have long been used in the insurance industry as part of the process of estimating risks and setting premiums.”
+
 
  
 
