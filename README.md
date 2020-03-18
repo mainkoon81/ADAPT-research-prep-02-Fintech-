@@ -65,21 +65,20 @@ Now, the ecosystem of technologies that are coming to play in the insurance indu
  - __Blockchain:__ Efficient information exchange, trust, the ability to write contracts that are self-referential and self-aware and which offer a certain kind of immutability, ultimately appropriate because after all insurance is essentially in the form of a contract. 
  - __Analytics::__ Analytics that help insurers, their service providers, underwriters, and others make better decisions, taking more from data, expanding to new data, augmenting data. 
  - __Process Automation:__ The insurance industry and the processing of insurance requires vast amounts of repetitive tasks making insurance ripe for process automation. Rules-based or potentially ultimately self-aware, increasing reliability, decreasing mistakes, and ultimately automating what traditionally has been a human task oriented area. 
-
  - __Connecting ecosystems:__ As broad and far-reaching as social media or based on data already collected within the ecosystem of the insured linking back to the entire value chain of insurance, understanding the client better to better profile their risks and potentially spot both service lapses and rising risks in a more accurate way or in a faster way.
  - __drone technologies:__ As visual processing technologies, using for aerial imagery, remote assessment, and integrity of images and imagery used in the insurance underwriting process or for claims. 
  - __Artificial intelligence:__ AI, including natural language processing, chatbot, mimicking the human capacity to process language, to learn, to extract patterns not easily seen using traditional technologies including even advanced statistics and ultimately making a customer's experience and an insurers decision-making process better.
  - __Robo advisors:__ They rely on rules or other kinds of machine learning techniques to interact with customers, it could be customers interacting with technology online or over the phone either enhancing, making more immediate or `more accurate customer interactions`. 
  - __wearables:__ A very interesting area known as wearables, providing data both about the insured or those who are related to the insured all the way back to insurers helping them manage risks, understanding the insured, perhaps improving the customer experience in real-time or in aggregated way. 
 
-### Machine Learning ? 
+#### Machine Learning ? 
 The National Association of Insurance Commissioners indicates that only about 10 to 15 % of the data collected by insurance companies is currently actively used. Machine learning could allow those insurers to look at Big Data, to extract patterns that are useful for their businesses.
  - **Fraud managing**: Machine learning, including analyzing pictures and looking for certain markers of fraud, could both allow insurers to propagate their business models better, but also potentially decrease costs due to the dead weight loss of fraud.
  - **The automation of claims**:, which of course could lead to happier policy holders, is another area where machine learning and it's an efficiency and speed may apply, automating, reporting, processing, and speeding along the customer experience.
  - **risk modeling**:, allowing insurers to analyze their claims data in order to predict risk better. Of course, the historical data in the form of the history of losses may not be the only data that are important in understanding how to price risk and how to predict the risk...then Insurers could create models to predict demand for their own products and also develop new products, and therefore understand how to price them, or determine their premium.
  - **underwriting**: is one of the most important areas of insurance, Underwriters are those "human decision makers" who analyze data and, ultimately, make the decision of how to take on a given risk, and how to price it. Computers can aid that decision making process, they can flag risks in the process, and they can also point out inconsistencies in data that human underwriters may not be able to see. They can also check external sources, like social media, to verify accuracy of input data.
 
-### InsurTech Model Needed ?
+#### InsurTech Model Needed ?
  - 1.Product Design
  - 2.Selling and Marketing
  - 3.Underwrting(risk taking)
@@ -87,19 +86,19 @@ The National Association of Insurance Commissioners indicates that only about 10
  - 5.Claim Management(paying out on insurance claims)
  <img src="https://user-images.githubusercontent.com/31917400/72667844-083c0a00-3a18-11ea-8596-359d0a633932.jpg"/>
 
-### ACTUARIAL MODELING
+#### ACTUARIAL MODELING
 > Inverse Problem: Finding a cause of a consequence
  - result = K*f(cause) + error
  - If we find the K matrix, then it gets easy to find a cause.
 
-Makov, Smith, and Liu (1996, p. 503) noted that “statistical methods with a Bayesian flavour, in particular credibility theory, have long been used in the insurance industry as part of the process of estimating risks and setting premiums.”
+Makov, Smith, and Liu (1996, p. 503) noted that "statistical methods with a Bayesian flavour, in particular credibility theory, have long been used in the insurance industry as part of the process of estimating risks and setting premiums."
 
 
  
 
 
 
-
+------------------------------------------------------------------------------------------------------------
 ### B> RealEstateTechnology
 
 
