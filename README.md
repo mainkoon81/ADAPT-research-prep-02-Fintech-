@@ -86,7 +86,7 @@ The National Association of Insurance Commissioners indicates that only about 10
  - 5.Claim Management(paying out on insurance claims)
  <img src="https://user-images.githubusercontent.com/31917400/72667844-083c0a00-3a18-11ea-8596-359d0a633932.jpg"/>
 
-#### ACTUARIAL MODELING
+#### ACTUARIAL MODELING in General
 > Inverse Problem: Finding a cause of a consequence
  - result = K*f(cause) + error
  - If we find the K matrix, then it gets easy to find a cause.
@@ -100,6 +100,9 @@ Makov, Smith, and Liu (1996, p. 503) noted that "statistical methods with a Baye
 
 ------------------------------------------------------------------------------------------------------------
 ### B> RealEstateTechnology
+Companies adopting the technology is bifurcated, either on the commercial side(CRE) or the non commercial side(NCRE). By such classification, there are very different players and very different characteristics. For example: 
+ - **"Zillow"** as online portals and listing aggregators for residential real estate were on the scene back in the late-90s dot-com boom. It gives a democratized view into regions, properties, and other data for those who are buying or selling, so making people spend their time looking at their neighbors' properties...
+ - **WeWork** as a category leader on the commercial side, using app-based platform technology, is not just a provider of transitory real estate or real estate services but a provider of the technology of shared workspaces either rented or leased, changing social values and workplace concept.
 
 
 
