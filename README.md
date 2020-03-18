@@ -100,11 +100,17 @@ Makov, Smith, and Liu (1996, p. 503) noted that "statistical methods with a Baye
 
 ------------------------------------------------------------------------------------------------------------
 ### B> RealEstateTechnology
-Companies adopting the technology is bifurcated, either on the commercial side(CRE) or the non commercial side(NCRE). By such classification, there are very different players and very different characteristics. For example: 
- - **"Zillow"** as online portals and listing aggregators for residential real estate were on the scene back in the late-90s dot-com boom. It gives a democratized view into regions, properties, and other data for those who are buying or selling, so making people spend their time looking at their neighbors' properties...
- - **WeWork** as a category leader on the commercial side, using app-based platform technology, is not just a provider of transitory real estate or real estate services but a provider of the technology of shared workspaces either rented or leased, changing social values and workplace concept.
+Companies adopting the technology is bifurcated, either on the commercial side(CRE) or the non commercial side(NCRE). By such classification, there are very different players and very different characteristics. For example, **"Zillow"** as online portals and listing aggregators for residential real estate were on the scene back in the late-90s dot-com boom. It gives a democratized view into regions, properties, and other data for those who are buying or selling, so making people spend their time looking at their neighbors' properties...**"WeWork"** as a category leader on the commercial side, using app-based platform technology, is not just a provider of transitory real estate or real estate services but a provider of the technology of shared workspaces either rented or leased, changing social values and workplace concept.
+ - >Residential Sector
+   - This sector has long maintained a **pricing system** and **data availability** industrially.
+     - MLS(Multiple Listing Services) has been in place for decades and has been run by local affiliates of NAR(National Association of Realtors). It was impractical to search for homes for sale without access to MLS data, which used to be mediated by realtors.
+   - Today, the MLS is still owned at least in part by the NAR, but there has been pressure due to the advent of business models - Zillow, Trulia, Loopnet, Redfin, etc. Such that the MLS data has been made available, it's been democratized.
+     - The historical commission structure of residential real estate sales (the “6% rule”) has been more resistant to change.
+     - Technology is making it easier to disintermediate brokers, or force them to compete on price but residential real estate transactions usually require inspections, title services, evaluations, and an appraisal if financing is involved. 
 
-
+ 
+ 
+ - >Commercial Sector
 
 
 
