@@ -54,8 +54,11 @@
 
 
 
+
+
+
 ## III. Application: Insur-Tech & RealEstate-Tech  
-## A. InsurTechnology
+### A> InsurTechnology
 <img src="https://user-images.githubusercontent.com/31917400/72616503-05b1b580-392f-11ea-8cd1-8ece2f44fa68.jpg"/>
 
 Now, the ecosystem of technologies that are coming to play in the insurance industry are many:
@@ -69,14 +72,14 @@ Now, the ecosystem of technologies that are coming to play in the insurance indu
  - __Robo advisors:__ They rely on rules or other kinds of machine learning techniques to interact with customers, it could be customers interacting with technology online or over the phone either enhancing, making more immediate or `more accurate customer interactions`. 
  - __wearables:__ A very interesting area known as wearables, providing data both about the insured or those who are related to the insured all the way back to insurers helping them manage risks, understanding the insured, perhaps improving the customer experience in real-time or in aggregated way. 
 
-## Machine Learning ?
+### Machine Learning ? 
 The National Association of Insurance Commissioners indicates that only about 10 to 15 % of the data collected by insurance companies is currently actively used. Machine learning could allow those insurers to look at Big Data, to extract patterns that are useful for their businesses.
  - **Fraud managing**: Machine learning, including analyzing pictures and looking for certain markers of fraud, could both allow insurers to propagate their business models better, but also potentially decrease costs due to the dead weight loss of fraud.
  - **The automation of claims**:, which of course could lead to happier policy holders, is another area where machine learning and it's an efficiency and speed may apply, automating, reporting, processing, and speeding along the customer experience.
  - **risk modeling**:, allowing insurers to analyze their claims data in order to predict risk better. Of course, the historical data in the form of the history of losses may not be the only data that are important in understanding how to price risk and how to predict the risk...then Insurers could create models to predict demand for their own products and also develop new products, and therefore understand how to price them, or determine their premium.
  - **underwriting**: is one of the most important areas of insurance, Underwriters are those "human decision makers" who analyze data and, ultimately, make the decision of how to take on a given risk, and how to price it. Computers can aid that decision making process, they can flag risks in the process, and they can also point out inconsistencies in data that human underwriters may not be able to see. They can also check external sources, like social media, to verify accuracy of input data.
 
-## B. InsurTech Model Needed:
+### InsurTech Model Needed ?
  - 1.Product Design
  - 2.Selling and Marketing
  - 3.Underwrting(risk taking)
@@ -84,8 +87,7 @@ The National Association of Insurance Commissioners indicates that only about 10
  - 5.Claim Management(paying out on insurance claims)
  <img src="https://user-images.githubusercontent.com/31917400/72667844-083c0a00-3a18-11ea-8596-359d0a633932.jpg"/>
 
-
-## C. ACTUARIAL MODELING
+### ACTUARIAL MODELING
 > Inverse Problem: Finding a cause of a consequence
  - result = K*f(cause) + error
  - If we find the K matrix, then it gets easy to find a cause.
@@ -95,6 +97,10 @@ Makov, Smith, and Liu (1996, p. 503) noted that “statistical methods with a Ba
 
  
 
+
+
+
+### B> RealEstateTechnology
 
 
 
