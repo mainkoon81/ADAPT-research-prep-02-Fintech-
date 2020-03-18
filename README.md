@@ -111,6 +111,11 @@ Companies adopting the technology is bifurcated, either on the commercial side(C
  
  
  - >Commercial Sector
+   - Managing commercial properties is often extremely complex and requires copious amounts of data and transaction details that are challenging to maintain(to obtain reliably). CRE Tech startups are focusing on this space and increasing efficiency, optimizing, and so on. For example,
+     - Management information systems in the form of firms like **"Workframe"**. 
+       - platforms for commercial tenants to gain information and to access contracts and to provide data and share data back and forth with commercial real estate managers. Transaction data aggregate are all examples of what's going on in the commercial real estate space.
+     - WeSmartPark: Airbnb for empty garage parking spaces 
+     - Bowery: Automating the CRE appraisal process 
 
 
 
