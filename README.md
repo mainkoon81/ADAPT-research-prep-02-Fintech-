@@ -5,7 +5,7 @@
  - __For Rich:__ They would have investment portfolios and traditional advisors. So they'd be managing this portfolio of their money for themselves, for their family, for their retirement, and so on.
  - __For others:__ They wouldn't have financial advisors, or wouldn't even really be saving for their retirement so much. Instead, they depended on social security or pension plans such as "Defined Benefit Plan" and the pension was set by the formula, counting up the years of service.
    - Traditionally...**Insolvency Everywhere**...
-     - The benefit came at a cost
+     - The benefit came at a cost.
      - Employers should maintain assets sufficient for the liabilities..but do they do? GM? Chrysler? 
      - No guarantee of reliable delivery??? What are we going to do about the solvency of the pension plans? 
    - So these days, we were transitioning out of the DBP into "Defined Contribution Plans" - There was a promise there, such as "you're going to get this benefits!"
