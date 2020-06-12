@@ -125,8 +125,12 @@ Companies adopting the technology is bifurcated, either on the commercial side(C
 
 ## IV. Inferring Causal Effects from Observational Data
 ### A> Causal Effects
+Why we need Causality Analysis?
+ - Fight againt "Spurious Correlation": you could have unrelated variables that might just coincidentally be highly correlated.. 
+ <img src="https://user-images.githubusercontent.com/31917400/84554380-765ad380-ad0f-11ea-9ca5-7507a03974c6.jpg"/>
 
-
+ - Make sure the relationship between two variables could be causal in either direction or what? Otherwise, we're stuck in the space of wondering which direction the causal arrow goes.
+ <img src="https://user-images.githubusercontent.com/31917400/84554720-20872b00-ad11-11ea-87b1-d8dbf13b6f07.jpg"/>
 
 
 ### B> Directed Acyclic Graphs
