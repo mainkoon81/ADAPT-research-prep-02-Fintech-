@@ -122,7 +122,9 @@ Companies adopting the technology is bifurcated, either on the commercial side(C
 
 
 ------------------------------------------------------------------------------------------------------------
-### C> Causal Effect
+
+## 4. Inferring Causal Effects from Observational Data
+### A> Causal Effect
 
 
 
