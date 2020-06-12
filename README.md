@@ -123,8 +123,31 @@ Companies adopting the technology is bifurcated, either on the commercial side(C
 
 ------------------------------------------------------------------------------------------------------------
 
-## 4. Inferring Causal Effects from Observational Data
-### A> Causal Effect
+## IV. Inferring Causal Effects from Observational Data
+### A> Causal Effects
+
+
+
+
+### B> Directed Acyclic Graphs
+
+
+
+
+
+### C> Matching and Propensity Scores
+
+
+
+
+
+### D> Inverse Probability of Treatment Weighting
+
+
+
+
+
+### E> Instrumental Variables Methods
 
 
 
