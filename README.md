@@ -132,6 +132,9 @@ Why we need Causality Analysis?
  - Make sure the relationship between two variables could be causal in either direction or what? Otherwise, we're stuck in the space of wondering which direction the causal arrow goes.
  <img src="https://user-images.githubusercontent.com/31917400/84554720-20872b00-ad11-11ea-87b1-d8dbf13b6f07.jpg"/>
 
+Causal Effect
+ - This causal effect where we're manipulating treatment on the same group of people versus this thing that we actually observe, which is the difference in means among some populations that are defined by treatment!
+ <img src="https://user-images.githubusercontent.com/31917400/84555368-6db8cc00-ad14-11ea-9d6f-f3893d5aa44b.jpg"/>
 
 ### B> Directed Acyclic Graphs
 
