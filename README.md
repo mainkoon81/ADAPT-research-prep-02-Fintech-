@@ -135,7 +135,7 @@ Why we need Causality Analysis?
 Causal Effect
  - This causal effect where we're manipulating treatment on the same group of people versus this thing that we actually observe, which is the difference in means among some populations that are defined by treatment! In reality, for each person we're going to see one treatment, then we're going to see one outcome. But we want to infer something about what would have happened....we'll have to make assumptions to link observed data to potential outcomes. How do I estimate **causal effects from observational data**?
  <img src="https://user-images.githubusercontent.com/31917400/84555368-6db8cc00-ad14-11ea-9d6f-f3893d5aa44b.jpg"/>
- <img src="https://user-images.githubusercontent.com/31917400/84555674-fbe18200-ad15-11ea-83f8-c47ae4941433.jpg"/>
+ <img src="https://user-images.githubusercontent.com/31917400/84555789-afe30d00-ad16-11ea-8212-9e3584833ed6.jpg"/>
 
 ### B> Directed Acyclic Graphs
 
