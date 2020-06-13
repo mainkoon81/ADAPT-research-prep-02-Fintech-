@@ -139,10 +139,11 @@ Causal Effect
 Confounding Control by Killing some covariates?
  - Let's say we might be interested in the mean difference in the outcome if everybody was treated versus if no one was treated. To estimate this from observational data, we will need to make several assumptions, including ignorability. 
  - **Ignorability** refers to the `treatment assignment` **being "independent"(no relation to) of potential outcomes** conditional on some set of covariates X.
- <img src="https://user-images.githubusercontent.com/31917400/84569040-80b2b700-ad7b-11ea-93ca-6ce32a3355fc.jpg"/>
+ <img src="https://user-images.githubusercontent.com/31917400/84569337-9f19b200-ad7d-11ea-8614-9fed2901eee6.jpg"/>
 
- - We are interested in:
-   - identifying covariates X making the "ignorability" assumption hold.(so...under the certain predictors, the treatment become obsolete in predicting the outcome!). What's the statistical method to control this?  
+### > Let's identify some "covariates X" making the "ignorability" assumption hold.(so...under the certain predictors, the treatment become obsolete in predicting the outcome!). What's the statistical method to control this?  
+### > Let's identify Confounders! 
+
 
 ### B> Directed Acyclic Graphs
 
