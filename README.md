@@ -142,13 +142,19 @@ Confounding Control? Killing some covariates?
  <img src="https://user-images.githubusercontent.com/31917400/84569337-9f19b200-ad7d-11ea-8614-9fed2901eee6.jpg"/>
 
 > Let's identify some "covariates X" making the "ignorability" assumption hold.(so...under the certain predictors, the treatment become obsolete in predicting the outcome!). What's the statistical method to control this?  
-> Let's identify Confounders! 
+> Let's identify **Confounders** = Let's identify **multicollinearity**!
 
 ### B> Directed Acyclic Graphs
 
 
 ### C> Matching and Propensity Scores
+The randomization can fix the **confounders**. 
+<img src="https://user-images.githubusercontent.com/31917400/84569337-9f19b200-ad7d-11ea-8614-9fed2901eee6.jpg"/>
+
 a) Matching
+ - Match individuals in the treatment group (A=1) to people in the control group (A=0), but we'll match them on covariates X. So.. for each treated person, we'll try to find a control person who has the same values of X. 
+   - For example, in tha case where older people are more likely to get (A=1), and at younger ages, there are more people with (A=0). In a randomized trial via Matching, for any particular age, there should be about the same number of treated and untreated people. 
+
 
 
 
