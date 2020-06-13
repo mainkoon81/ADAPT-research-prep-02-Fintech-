@@ -136,9 +136,10 @@ Causal Effect
  - This causal effect where we're manipulating treatment on the same group of people versus this thing that we actually observe, which is the difference in means among some populations that are defined by treatment! In reality, for each person we're going to see one treatment, then we're going to see one outcome. But we want to infer something about what would have happened....we'll have to make assumptions to link observed data to potential outcomes. How do I estimate **causal effects from observational data**?
  <img src="https://user-images.githubusercontent.com/31917400/84555368-6db8cc00-ad14-11ea-9d6f-f3893d5aa44b.jpg"/>
 
-Reduce Confounding?
- - Let's say we might be interested in the mean difference in the outcome if everybody was treated versus if no one was treated. To estimate this from observational data, we will need to make several assumptions, including ignorability. **Ignorability** refers to the `treatment assignment` **being independent of potential outcomes** conditional on some set of covariates X.
- <img src="https://user-images.githubusercontent.com/31917400/84568387-18fa6d00-ad77-11ea-99c9-66b6978257ef.jpg"/>
+Reduce Confounding and Kill some covariates
+ - Let's say we might be interested in the mean difference in the outcome if everybody was treated versus if no one was treated. To estimate this from observational data, we will need to make several assumptions, including ignorability. 
+ - **Ignorability** refers to the `treatment assignment` **being "independent"(no relation to) of potential outcomes** conditional on some set of covariates X.
+ <img src="https://user-images.githubusercontent.com/31917400/84568559-2401cd00-ad78-11ea-837b-47eec82855a8.jpg"/>
 
  - We are interested in:
    - identifying covariates X making the "ignorability" assumption hold.(so...under the certain predictors, the treatment become obsolete in predicting the outcome!). What's the statistical method to control this?  
