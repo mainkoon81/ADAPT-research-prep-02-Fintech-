@@ -149,7 +149,7 @@ Confounding Control? Killing some covariates?
 
 ### C> Matching and Propensity Scores
 The randomization can fix the **confounders**. 
-<img src="https://user-images.githubusercontent.com/31917400/84569337-9f19b200-ad7d-11ea-8614-9fed2901eee6.jpg"/>
+<img src="https://user-images.githubusercontent.com/31917400/84579891-cc8c4d00-adc9-11ea-96ff-4190813bbe1f.jpg"/>
 
 a) Matching
  - Match individuals in the treatment group (A=1) to people in the control group (A=0), but we'll match them on covariates X. So.. for each treated person, we'll try to find a control person who has the same values of X. 
