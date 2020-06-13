@@ -147,11 +147,12 @@ Confounding Control by Killing some covariates?
 ### B> Directed Acyclic Graphs
 
 
-
-
-
 ### C> Matching and Propensity Scores
+a) Matching
 
+
+
+b) Propensity Score
 
 
 
