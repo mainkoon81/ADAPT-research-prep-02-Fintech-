@@ -162,7 +162,9 @@ If we had a single variable that we wanted to control for, and it was just a yes
  <img src="https://user-images.githubusercontent.com/31917400/84590732-faf14300-ae30-11ea-93e6-e627fc5fbcd0.jpg"/>
 
 > ### [Matching Directly on Confounders]
-When we cannot match samples exactly, we first need to choose some metric of closeness...
+When we cannot match samples exactly, we first need to choose some metric of closeness...**Mahalanobis Distance**
+<img src="https://user-images.githubusercontent.com/31917400/84592398-60e3c780-ae3d-11ea-918c-f1a294eab0f7.jpg"/>
+
 
 
 
