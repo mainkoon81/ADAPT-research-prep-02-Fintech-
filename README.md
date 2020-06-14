@@ -163,13 +163,12 @@ If we had a single variable that we wanted to control for, and it was just a yes
 
 > ### [Matching Directly on Confounders]
 When we cannot match samples exactly, we first need to choose some metric of closeness...**Mahalanobis Distance**
-<img src="https://user-images.githubusercontent.com/31917400/84592398-60e3c780-ae3d-11ea-918c-f1a294eab0f7.jpg"/>
-
-For example, if we have 3 covariates:
+<img src="https://user-images.githubusercontent.com/31917400/84592398-60e3c780-ae3d-11ea-918c-f1a294eab0f7.jpg"/> For example, if we have 3 covariates:
  - age
  - COPD(1:Yes, 0:No)
  - Female(1:Yes, 0:No)
- <img src="https://user-images.githubusercontent.com/31917400/84592618-f16ed780-ae3e-11ea-8572-bf5c30fce069.jpg"/>
+ <img src="https://user-images.githubusercontent.com/31917400/84592618-f16ed780-ae3e-11ea-8572-bf5c30fce069.jpg"/> However, outliers sometimes could create a great distance between subjects, even if their covariates are otherwise similar....So an alternative is to use `ranks`.
+
 
 
 
