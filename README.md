@@ -159,7 +159,7 @@ __a) Matching__
  
  - If we had a single variable that we wanted to control for, and it was just a yes / no, binary kind of variable, it's easy but if you have many covariates, some of which might be continuous, it gets much more complicated.... Do Stochastic Balance!: the distribution of covariates will be balanced between the groups! It doesn't mean that we match exactly, but we'll have close matches and the distribution, then, of the covariates should be very similar in the two groups. 
  - Stochastic Balance says we can make the distribution of covariates in the control group look like that in the treated group.
- <img src="https://user-images.githubusercontent.com/31917400/84590678-861e0900-ae30-11ea-84b0-d5e93043e541.jpg"/>
+ <img src="https://user-images.githubusercontent.com/31917400/84590732-faf14300-ae30-11ea-93e6-e627fc5fbcd0.jpg"/>
 
  
 
