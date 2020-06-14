@@ -167,9 +167,9 @@ When we cannot match samples exactly, we first need to choose some metric of clo
  - age
  - COPD(1:Yes, 0:No)
  - Female(1:Yes, 0:No)
- <img src="https://user-images.githubusercontent.com/31917400/84592618-f16ed780-ae3e-11ea-8572-bf5c30fce069.jpg"/> However, outliers sometimes could create a great distance between subjects, even if their covariates are otherwise similar....So an alternative is to use `ranks`.
+ <img src="https://user-images.githubusercontent.com/31917400/84592618-f16ed780-ae3e-11ea-8572-bf5c30fce069.jpg"/> However, outliers sometimes could create a great distance between subjects, even if their covariates are otherwise similar....So an alternative is to use `ranks`. Just for the purpose of matching, we could replace all of our variables with their `ranks`. Make variables ordinal! 
 
-
+> ### [KNN Matching]
 
 
 
