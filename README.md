@@ -152,6 +152,7 @@ The randomization can kill the **confounders**.
 <img src="https://user-images.githubusercontent.com/31917400/84579891-cc8c4d00-adc9-11ea-96ff-4190813bbe1f.jpg"/>
 
 __a) Matching__
+
 **Match individuals** in the treatment group (A=1) to people in the control group (A=0), but we'll match them on covariates X..In other words, for each treated person, we'll try to find a control person who has the same values of X. Find the best matches you can and then you get rid of the samples who weren't matched. And now you'll notice that we have perfect balance on this covariate. 
    - For example, in tha case where older people are more likely to get (A=1), and at younger ages, there are more people with (A=0). In a randomized trial via Matching, for any particular age, there should be about the same number of treated and untreated people. 
 <img src="https://user-images.githubusercontent.com/31917400/84590486-06436f00-ae2f-11ea-89a2-037d8b7723fb.jpg"/>
