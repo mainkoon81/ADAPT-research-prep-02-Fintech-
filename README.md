@@ -152,16 +152,16 @@ The randomization can kill the **confounders**.
 <img src="https://user-images.githubusercontent.com/31917400/84579891-cc8c4d00-adc9-11ea-96ff-4190813bbe1f.jpg"/>
 
 __a) Matching__
- - **Match individuals** in the treatment group (A=1) to people in the control group (A=0), but we'll match them on covariates X..In other words, for each treated person, we'll try to find a control person who has the same values of X. 
- - Find the best matches you can and then you get rid of the samples who weren't matched. And now you'll notice that we have perfect balance on this covariate. 
+**Match individuals** in the treatment group (A=1) to people in the control group (A=0), but we'll match them on covariates X..In other words, for each treated person, we'll try to find a control person who has the same values of X. Find the best matches you can and then you get rid of the samples who weren't matched. And now you'll notice that we have perfect balance on this covariate. 
    - For example, in tha case where older people are more likely to get (A=1), and at younger ages, there are more people with (A=0). In a randomized trial via Matching, for any particular age, there should be about the same number of treated and untreated people. 
 <img src="https://user-images.githubusercontent.com/31917400/84590486-06436f00-ae2f-11ea-89a2-037d8b7723fb.jpg"/>
  
- - If we had a single variable that we wanted to control for, and it was just a yes / no, binary kind of variable, it's easy but if you have many covariates, some of which might be continuous, it gets much more complicated.... Do Stochastic Balance!: the distribution of covariates will be balanced between the groups! It doesn't mean that we match exactly, but we'll have close matches and the distribution, then, of the covariates should be very similar in the two groups. 
- - Stochastic Balance says we can make the distribution of covariates in the control group look like that in the treated group.
+If we had a single variable that we wanted to control for, and it was just a yes / no, binary kind of variable, it's easy but if you have many covariates, some of which might be continuous, it gets much more complicated.... Do Stochastic Balance!: the distribution of covariates will be balanced between the groups! It doesn't mean that we match exactly, but we'll have close matches and the distribution, then, of the covariates should be very similar in the two groups. 
+   - Stochastic Balance says we can make the distribution of covariates in the control group look like that in the treated group.
  <img src="https://user-images.githubusercontent.com/31917400/84590732-faf14300-ae30-11ea-93e6-e627fc5fbcd0.jpg"/>
 
- 
+> ### [Matching Directly on Confounders]
+When we cannot match samples exactly, we first need to choose some metric of closeness...
 
 
 
