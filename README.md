@@ -186,10 +186,11 @@ We might want to..
  - First choose and compute a test statistic from your observed data, and perform Hypothesis test with `H0: "There's no treatment effect"`.
  - Next, estimate the treatment effect and CI.... 
 
+### Assuming it to be a binary classification problem, t-Statistics(comparing the "Group means") helps us to evaluate that whether the values of a particular target variable for class(A=0) is significantly different from values of same target variable for class(A=1). If this holds, then the feature can helps us to better differentiate our data.
 
 __C-b) Propensity Score__
 
-propensity score is simply the probability of receiving treatment, given covariates. 
+Propensity score is simply the `probability of receiving treatment`, given covariates. 
 
 
 
