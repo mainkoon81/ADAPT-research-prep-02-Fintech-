@@ -161,6 +161,7 @@ If we had a single variable that we wanted to control for, and it was just a yes
    - Stochastic Balance says we can make the distribution of covariates in the control group look like that in the treated group.
  <img src="https://user-images.githubusercontent.com/31917400/84590732-faf14300-ae30-11ea-93e6-e627fc5fbcd0.jpg"/>
 
+> ### 1.[Matching Preparation]
 We can match directly on confounders....When we cannot match samples exactly, we first need to choose some metric of closeness...**Mahalanobis Distance**
 <img src="https://user-images.githubusercontent.com/31917400/84592398-60e3c780-ae3d-11ea-918c-f1a294eab0f7.jpg"/> For example, if we have 3 covariates:
  - age
@@ -168,17 +169,19 @@ We can match directly on confounders....When we cannot match samples exactly, we
  - Female(1:Yes, 0:No)
  <img src="https://user-images.githubusercontent.com/31917400/84592618-f16ed780-ae3e-11ea-8572-bf5c30fce069.jpg"/> However, outliers sometimes could create a great distance between subjects, even if their covariates are otherwise similar....So an alternative is to use `ranks`. Just for the purpose of matching, we could replace all of our variables with their `ranks`. Make variables ordinal! 
 
-> ### [Matching via Nearest one]
+> ### 2.[Matching via Nearest one]
 Let's say you've already calculated the Mahalanobis distances b/w each **treated sample** - with every controlled samplesss. First, we randomly order list of treated samples and controlled samples. Starting with the first treated sample, match the controlled one with the smallest distance, then removing the matched controlled one from the list. Moving on to the next treated sample and repeat the matching process until you have matched all treated samples. 
  <img src="https://user-images.githubusercontent.com/31917400/84595227-8f1dd300-ae4e-11ea-8e93-bb683d885552.jpg"/>
 
-> ### [Matching via Optimal one]
+> ### 3.[Matching via Optimal one]
 When matching, it can look at the big picture - global minimum distance.   
  <img src="https://user-images.githubusercontent.com/31917400/84595643-ee7ce280-ae50-11ea-9960-ad8fc2ad6023.jpg"/>
 
-> ### Next, we should assess the balance! 
+> ### 4. Next, Check for balance b/w groups(covariates)! 
 You can plot the `standardized mean differences` and this is especially useful if you have many covariants. It can show overall how well matching did. Is that matching created better balance on the covariates? 
  <img src="https://user-images.githubusercontent.com/31917400/84596016-18370900-ae53-11ea-9166-cba1b839259c.jpg"/>
+
+> ### 5.[Sensitivity Analysis]
 
 
 
