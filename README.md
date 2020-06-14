@@ -176,8 +176,9 @@ Let's say you've already calculated the Mahalanobis distances b/w each **treated
 When matching, it can look at the big picture - global minimum distance.   
  <img src="https://user-images.githubusercontent.com/31917400/84595643-ee7ce280-ae50-11ea-9960-ad8fc2ad6023.jpg"/>
 
-Next, we assess the balance! 
-
+> ### Next, we should assess the balance! 
+You can plot the `standardized mean differences` and this is especially useful if you have many covariants. It can show overall how well matching did. Is that matching created better balance on the covariates? 
+ <img src="https://user-images.githubusercontent.com/31917400/84596016-18370900-ae53-11ea-9166-cba1b839259c.jpg"/>
 
 
 
