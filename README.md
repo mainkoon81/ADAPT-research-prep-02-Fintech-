@@ -215,9 +215,6 @@ Propensity score is simply the `probability of receiving treatment`, **given cov
 Now.. you could carry out matching after you trim the tails. Let's match samples on some distance measure based on the propensity score. We could just calculate a distance between any two samples on the propensity score, and then try to minimize distance. So again we could use greedy or nearest neighbor matching, or optimal matching. We're basically taking the same steps as before, **except our distance measure is now a generic distance based on propensity scores** as opposed to a Mahalanobis distance based on a collection of covariate values. 
  - Rather than use an untransformed propensity score, people often first transform it using a logit transformation (log-odds of the scores). Obviously, the propensity scores would tend to be very small for everybody...and the logit transformation will essentially stretch it out to make it easier to find matches(but it still preserves the ranks of the propensity score itself).  
 
-### D> Inverse Probability of Treatment Weighting
-### E> Instrumental Variables Methods
-
 
 
 
