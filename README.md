@@ -205,9 +205,9 @@ Propensity score is simply the `probability of receiving treatment`, **given cov
 
  - __"propensity score is a balancing Score"?__ ![formula](https://render.githubusercontent.com/render/math?math=P(X=x|\pi(x)=score,A=1)=P(X=x|\pi(x)=score,A=0)) : A balancing score is something where if you condition on it, you'll have balance. Suppose two samples have the same value of the propensity Score, but have different predictor values. This means that those different predictor value is as likely to be found in the treatment group!...at the same rate! So...if we were to restrict to subpopulation of people that had the same value of the propensity score, then we should have balance in the two treatment groups. `so if matching on the propensity score, we can achieve the balance.` Ok, then how to estimate the propensity score for each sample? See `P(A=1|X)`...From ML model such as logistic regression(regressor + classifier), we can get predicted fitted value for each sample!   
  
- - __Propensity Score Matching:__ Once each propensity score is estimated, it is useful to look for "overlap". We can compare the distribution of the scores for the treated / controlled. <img src="https://user-images.githubusercontent.com/31917400/84660873-6874a080-af11-11ea-9662-37d10162fbbb.jpg"/>
+ - __Propensity Score Matching:__ Once each propensity score is estimated, it is useful to look for "overlap". We can compare the distribution of the scores for the treated / controlled. <img src="https://user-images.githubusercontent.com/31917400/84662587-eb96f600-af13-11ea-8cb3-4a8187f5992b.jpg"/>
  
-   - 
+   - We hope that our **positivity assumption** is reasonable. The **positivity** refers to the situation where `all of the samples have at least some chance of receiving treatment`...so we hope the nice overlap in the plot.  
 
 
 
