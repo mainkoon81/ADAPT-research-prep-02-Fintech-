@@ -212,23 +212,10 @@ Propensity score is simply the `probability of receiving treatment`, **given cov
    - **Randomization:** In this box above, these are a subpopulation who have covariates such that they really could have gotten treatment, and so treatment is effectively random within that range. So..get rid of individuals who have extreme propensity scores and focus on that box. This is what's known as trimming tails which means removing samples from your dataset that have extreme values of the propensity score (Remove any `control sample` whose propensity score is less than the minimum propensity score in the treatment group and chop off `treated samples` whose propensity score is greater than the maximum of the control group). 
 
 > ### 2.[Matching] 
-Now.. you could carry out matching after you trim the tails. Let's match samples on some distance measure based on the propensity score. We could just calculate a distance between any two samples on the propensity score, and then try to minimize distance. So again we could use greedy or nearest neighbor matching, or optimal matching. We're basically taking the same steps as before, **except our distance measure is now a distance based on propensity scores** as opposed to a distance based on a collection of covariate values. 
-
-
-
-
-
-
-
-
-
+Now.. you could carry out matching after you trim the tails. Let's match samples on some distance measure based on the propensity score. We could just calculate a distance between any two samples on the propensity score, and then try to minimize distance. So again we could use greedy or nearest neighbor matching, or optimal matching. We're basically taking the same steps as before, **except our distance measure is now a generic distance based on propensity scores** as opposed to a Mahalanobis distance based on a collection of covariate values. 
+ - Rather than use an untransformed propensity score, people often first transform it using a logit transformation (log-odds of the scores). Obviously, the propensity scores would tend to be very small for everybody...and the logit transformation will essentially stretch it out to make it easier to find matches(but it still preserves the ranks of the propensity score itself).  
 
 ### D> Inverse Probability of Treatment Weighting
-
-
-
-
-
 ### E> Instrumental Variables Methods
 
 
