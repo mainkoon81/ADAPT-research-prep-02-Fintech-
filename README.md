@@ -186,6 +186,13 @@ We might want to..
  - First choose and compute a test statistic from your observed data, and perform Hypothesis test with `H0: "There's no treatment effect"`.
  - Next, estimate the treatment effect and CI.... 
 
+Randomization Test? Say that we are considering a binary classification problem and have a training set of m 'class-1' samples and n 'class-2' samples. A randomization test for `feature selection` looks at each feature individually. 
+ - A test statistic θ, such as information gain or the normalized difference between the means, is calculated for the feature. 
+ - The data for the feature is then randomly permuted and partitioned into two sets, one of size m and one of size n. 
+ - The test statistic θ is then calculated again based on this new partition. 
+
+Depending on the computational complexity of the problem, this is then repeated over all possible partitions of the feature into two sets of order m and n, or a random subset of these.
+
 > ### Assuming it to be a binary classification problem, t-Statistics(comparing the "Group Means") helps us to evaluate that whether the values of a particular target variable for class(A=0) is significantly different from values of same target variable for class(A=1). If this holds, then the feature can helps us to better differentiate our data.
 
 __C-b) Matching with Propensity Score__
@@ -196,7 +203,7 @@ Propensity score is simply the `probability of receiving treatment`, **given cov
 
  - __"propensity score is a balancing Score"?__ ![formula](https://render.githubusercontent.com/render/math?math=P(X=x|\pi(x)=score,A=1)=P(X=x|\pi(x)=score,A=0)) : A balancing score is something where if you condition on it, you'll have balance. Suppose two samples have the same value of the propensity Score, but have different predictor values. This means that those different predictor value is as likely to be found in the treatment group!...at the same rate! So...if we were to restrict to subpopulation of people that had the same value of the propensity score, then we should have balance in the two treatment groups. `so if matching on the propensity score, we can achieve the balance.` Ok, then how to estimate the propensity score? See `P(A=1|X)`...From ML model such as logistic regression(regressor + classifier), we can get predicted fitted value for each sample!   
  
- - Propensity Score Matching:  
+ - __Propensity Score Matching:__   
 
 
 
