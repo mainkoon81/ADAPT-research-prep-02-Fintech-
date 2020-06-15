@@ -147,13 +147,11 @@ Confounding Control? Killing some covariates?
 ### B> Directed Acyclic Graphs
 
 
-### C> Matching and Propensity Scores
+### C> Matching to kill Confounders
 The randomization can kill the **confounders**. 
 <img src="https://user-images.githubusercontent.com/31917400/84579891-cc8c4d00-adc9-11ea-96ff-4190813bbe1f.jpg"/>
 
-__C-a) Matching for the "imbalanced" outcome variable__(categorical - treated/controlled)
-
-Matching aims to achieve balance on observed covariates. **Match individuals** in the treatment group (A=1) to people in the control group (A=0), but we'll match them on covariates X..In other words, for each treated person, we'll try to find a control person who has the same values of X. Find the best matches you can and then you **`get rid of the samples who weren't matched`**. And now you'll notice that we have perfect balance on this covariate. 
+Matching aims to achieve balance on observed covariates with the "imbalanced" outcome variable(categorical - treated/controlled). **Match individuals** in the treatment group (A=1) to people in the control group (A=0), but we'll match them on covariates X..In other words, for each treated person, we'll try to find a control person who has the same values of X. Find the best matches you can and then you **`get rid of the samples who weren't matched`**. And now you'll notice that we have perfect balance on this covariate. 
    - For example, in tha case where older people are more likely to get (A=1), and at younger ages, there are more people with (A=0). In a randomized trial via Matching, for any particular age, there should be about the same number of treated and untreated people. 
 <img src="https://user-images.githubusercontent.com/31917400/84590486-06436f00-ae2f-11ea-89a2-037d8b7723fb.jpg"/>
  
@@ -161,7 +159,9 @@ If we had a single variable that we wanted to control for, and it was just a yes
    - Stochastic Balance says we can make the distribution of covariates in the control group look like that in the treated group.
  <img src="https://user-images.githubusercontent.com/31917400/84590732-faf14300-ae30-11ea-93e6-e627fc5fbcd0.jpg"/>
 
-> ### 1.[Matching Preparation]
+__C-a) Matching with Mahalanobis Distance__
+
+> ### 1.[Preparation]
 We can match directly on confounders....When we cannot match samples exactly, we first need to choose some metric of closeness...**Mahalanobis Distance**
 <img src="https://user-images.githubusercontent.com/31917400/84592398-60e3c780-ae3d-11ea-918c-f1a294eab0f7.jpg"/> For example, if we have 3 covariates:
  - age
@@ -188,7 +188,7 @@ We might want to..
 
 > ### Assuming it to be a binary classification problem, t-Statistics(comparing the "Group Means") helps us to evaluate that whether the values of a particular target variable for class(A=0) is significantly different from values of same target variable for class(A=1). If this holds, then the feature can helps us to better differentiate our data.
 
-__C-b) Propensity Score__
+__C-b) Matching with Propensity Score__
 
 Propensity score is simply the `probability of receiving treatment`, **given covariate X**. So..it's a sort of the population proportion `π` in accordance with a certain predictor. 
  - Propensity Score: ![formula](https://render.githubusercontent.com/render/math?math=\pi_i=P(A=1|X_i))
