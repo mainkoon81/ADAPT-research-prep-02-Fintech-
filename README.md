@@ -207,7 +207,9 @@ Propensity score is simply the `probability of receiving treatment`, **given cov
  
  - __Propensity Score Matching:__ Once each propensity score is estimated, it is useful to look for "overlap". We can compare the distribution of the scores for the treated / controlled. <img src="https://user-images.githubusercontent.com/31917400/84662587-eb96f600-af13-11ea-8cb3-4a8187f5992b.jpg"/>
  
-   - We hope that our **positivity assumption** is reasonable. The **positivity** refers to the situation where `all of the samples have at least some chance of receiving treatment`...so we hope the nice overlap in the plot.  
+   - We hope that our **`positivity assumption`** is reasonable. The **positivity** refers to the situation where `all of the samples have at least some chance of receiving treatment`...so we hope the nice overlap in the plot. If there's a major lack of overlap in that at the high end of the propensity score, there's hardly anybody in the control group that had a propensity score like that. **So we really can't expect to learn about a treatment effect in the extremes**. We need to compare the group mean difference at the end.. we can't learn anything about a treatment effect among samples with no chance of getting treated.
+   - **Randomization:** In this box above, these are a subpopulation who have covariates such that they really could have gotten treatment, and so treatment is effectively random within that range. So..get rid of individuals who have extreme propensity scores and focus on that box. This is what's known as trimming tails which means removing samples from your dataset that have extreme values of the propensity score (Remove any `control sample` whose propensity score is less than the minimum propensity score in the treatment group and chop off `treated samples` whose propensity score is greater than the maximum of the control group). 
+   ### then now you could carry out matching after you trim the tails.
 
 
 
