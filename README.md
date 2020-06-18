@@ -234,6 +234,36 @@ One of the major challenges in feature selection is the inconsistency in terms o
 We need a new filtering method for feature selection that reduces the instability of the new variable score without losing in the overall accuracy of the predictive model. We believe that combining feature scores using filtering methods can reduce variations in the current filtering methods’ results and provide higher confidence in the scores assigned to variables. This method was influenced by the portfolio diversification idea in finance where an investor may sustain the same level of return while lowering his portfolio’s risk by merging uncorrelated assets. Thus, in the context of predictive models in data mining, combining different scoring methods should stabilise the classification accuracy across various different datasets while maintaining the overall average classification accuracy. 
 
 
+> ### [Variance-Based Sensitivity Analysis]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
