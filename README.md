@@ -235,8 +235,8 @@ We need a new filtering method for feature selection that reduces the instabilit
 
 
 > ### [Variance-Based Sensitivity Analysis]
-
-
+The foundations of the variance-based approach are based on two mathematical facts:
+ <img src="https://user-images.githubusercontent.com/31917400/85045296-b0e8c400-b186-11ea-9414-d4517b26b72a.jpg"/>
 
 
 
