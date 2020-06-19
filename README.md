@@ -241,7 +241,7 @@ The foundations of the variance-based approach are based on two mathematical fac
 
 Two measures of Sensitivity(importance for an input) are: 
  - 1) Sensitivity of the output **given an input ![formula](https://render.githubusercontent.com/render/math?math=x_1)** : 
-   - var(y) - **E[** var(y| ![formula](https://render.githubusercontent.com/render/math?math=x_1)) **]**
+   - var(y) - **E[** var(y| ![formula](https://render.githubusercontent.com/render/math?math=x_1)) **]** = var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_1) ] )
  - 2) Uncertainty remaining in the output **given other inputs** : 
    - var(y) - var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...) ] )
  <img src="https://user-images.githubusercontent.com/31917400/85135401-ef898780-b235-11ea-81a6-35a7903e5419.jpg"/>
