@@ -236,6 +236,8 @@ We need a new filtering method for feature selection that reduces the instabilit
 
 
 > ### [Variance-Based Sensitivity Analysis]
+The main idea of this method is to decompose the output variance into the contributions associated with each input factor. In order to quantify the importance of an input factor X on the variance of Y, feed ![formula](https://render.githubusercontent.com/render/math?math=X_i) and see the changes in the variance of Y. Because the true value of ![formula](https://render.githubusercontent.com/render/math?math=X_i) is unknown, we average over all possible values of ![formula](https://render.githubusercontent.com/render/math?math=X_i). so...E[var(Y|X)], and the smaller this quantity, the more important the contribution of ![formula](https://render.githubusercontent.com/render/math?math=X_i) to the variance of Y. 
+
 The foundations of the variance-based approach are based on two mathematical facts:
  <img src="https://user-images.githubusercontent.com/31917400/85045296-b0e8c400-b186-11ea-9414-d4517b26b72a.jpg"/>
 
