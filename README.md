@@ -246,7 +246,7 @@ Two measures of Sensitivity(importance for an input) are:
    - var(y) - var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...) ] )
  <img src="https://user-images.githubusercontent.com/31917400/85135401-ef898780-b235-11ea-81a6-35a7903e5419.jpg"/>
 
-
+## Find E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_1) ] !!!
 
 
 
