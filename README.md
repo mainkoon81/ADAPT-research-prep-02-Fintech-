@@ -239,7 +239,11 @@ We need a new filtering method for feature selection that reduces the instabilit
 The foundations of the variance-based approach are based on two mathematical facts:
  <img src="https://user-images.githubusercontent.com/31917400/85045296-b0e8c400-b186-11ea-9414-d4517b26b72a.jpg"/>
 
-The measure of importance for an input is 
+Two measures of Sensitivity(importance for an input) are: 1) the expected reduction in the variance of the output **given an input ![formula](https://render.githubusercontent.com/render/math?math=x_i)**, and 2) the uncertainty remaining in the output**given all input  except ![formula](https://render.githubusercontent.com/render/math?math=x_i)**. 
+ <img src="https://user-images.githubusercontent.com/31917400/85045296-b0e8c400-b186-11ea-9414-d4517b26b72a.jpg"/>
+
+
+
 
 
 
