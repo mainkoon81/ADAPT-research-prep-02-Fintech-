@@ -236,6 +236,8 @@ We need a new filtering method for feature selection that reduces the instabilit
 
 
 > ### [Variance-Based Sensitivity Analysis]
+When analyzing high-dimensional input/output systems, it is common to perform sensitivity analysis to identify important variables and reduce the complexity and computational cost of the problem. In order to perform sensitivity analysis on fixed data sets (without the possibility of further sampling), we fit a feature selection model to the data. We explores the effects of model error on sensitivity analysis, using Sobol’ indices (SI), a measure of the variance contributed by **particular variables** (1st order indices) and by **interactions** between multiple variables (total indices), as the primary measure of variable importance.
+
 The main idea of this method is to decompose the `output variance` into the contributions associated with each input factor. In order to quantify the importance of an input factor X on the variance of Y, feed ![formula](https://render.githubusercontent.com/render/math?math=X_i) and see the changes in the variance of Y. Because the true value of ![formula](https://render.githubusercontent.com/render/math?math=X_i) is unknown, we average over all possible values of ![formula](https://render.githubusercontent.com/render/math?math=X_i). so...**E[** var(Y|X) **]**, and the smaller this quantity, the more important the contribution of ![formula](https://render.githubusercontent.com/render/math?math=X_i) to the variance of Y. 
 
 The foundations of the variance-based approach are based on two mathematical facts:
