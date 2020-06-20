@@ -246,7 +246,7 @@ Two measures of Sensitivity(importance for an input) are:
    - var(y) - **E[** var(y| ![formula](https://render.githubusercontent.com/render/math?math=x_1)) **]** = var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_1) ] ): Model variance caused by the predictor ![formula](https://render.githubusercontent.com/render/math?math=x_1)?
  - 2) Uncertainty(variance) remaining in the output **given other inputs** : 
    - var(y) - var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...) ] ) = **E[** var(y|![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...)) **]**: Leftover variance caused by other predictors and their interactions?
- <img src="https://user-images.githubusercontent.com/31917400/85211113-b9372f80-b33d-11ea-888f-de3a596cb851.jpg"/>
+ <img src="https://user-images.githubusercontent.com/31917400/85211216-d91b2300-b33e-11ea-804b-f45c9a251b17.jpg"/>
 
 
 
