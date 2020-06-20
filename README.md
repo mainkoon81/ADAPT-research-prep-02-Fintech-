@@ -238,16 +238,14 @@ We need a new filtering method for feature selection that reduces the instabilit
 > ### [Variance-Based Sensitivity Analysis]
 When analyzing high-dimensional input/output systems, it is common to perform sensitivity analysis to identify important variables and reduce the complexity and computational cost of the problem. In order to perform sensitivity analysis on fixed data sets (without the possibility of further sampling), we fit a feature selection model to the data. We explores the effects of model error on sensitivity analysis, using Sobol’ indices (SI), a measure of the variance contributed by **particular variables** (1st order indices: `S_i`) and by **interactions** between multiple variables (total indices: `S_ti`), as the primary measure of variable importance.
 
-The main idea of this method is to decompose the `output variance` into the contributions associated with each input factor. In order to quantify the importance of an input factor X on the variance of Y, feed ![formula](https://render.githubusercontent.com/render/math?math=X_i) and see the changes in the variance of Y. 
-
-The foundations of the variance-based approach are based on two mathematical facts:
+The main idea of this method is to decompose the `output variance` into the contributions associated with each input factor. In order to quantify the importance of an input factor X on the variance of Y, feed ![formula](https://render.githubusercontent.com/render/math?math=X_i) and see the changes in the variance of Y. The foundations of the variance-based approach are based on two mathematical facts:
  <img src="https://user-images.githubusercontent.com/31917400/85045296-b0e8c400-b186-11ea-9414-d4517b26b72a.jpg"/>
 
 Two measures of Sensitivity(importance for an input) are: 
  - 1) Sensitivity of the output **given an input ![formula](https://render.githubusercontent.com/render/math?math=x_1)** : 
-   - var(y) - **E[** var(y| ![formula](https://render.githubusercontent.com/render/math?math=x_1)) **]** = var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_1) ] )
+   - var(y) - **E[** var(y| ![formula](https://render.githubusercontent.com/render/math?math=x_1)) **]** = var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_1) ] ): Model variance?
  - 2) Uncertainty remaining in the output **given other inputs** : 
-   - var(y) - var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...) ] )
+   - var(y) - var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...) ] ) = E[ var(y|![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...) ]
  <img src="https://user-images.githubusercontent.com/31917400/85135401-ef898780-b235-11ea-81a6-35a7903e5419.jpg"/>
 
 ## Find E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_1) ] !!!
