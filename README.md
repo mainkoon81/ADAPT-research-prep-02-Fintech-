@@ -238,6 +238,8 @@ We need a new filtering method for feature selection that reduces the instabilit
 > ### [Variance-Based Sensitivity Analysis]
 When analyzing high-dimensional input/output systems, it is common to perform sensitivity analysis to identify important variables and reduce the complexity and computational cost of the problem. In order to perform sensitivity analysis on fixed data sets (without the possibility of further sampling), we fit a feature selection model to the data. We explores the effects of model error on sensitivity analysis, using Sobol’ indices (SI), a measure of the variance contributed by **particular variables** (1st order indices: `S_i`) and by **interactions** between multiple variables (total indices: `S_ti`), as the primary measure of variable importance.
 
+**First-order Sobol indices** quantifies the single influence of variables or groups of variables. Saltelli introduced the **total sensitivity index** which measures the influence of a variable jointly with all its **`interactions`**. If the **total sensitivity index** of a variable is `zero`, this variable can be removed because neither the variable nor its interactions have an influence. Thus the **total sensitivity index** can be used to detect the essential variables. Considering its extension to **second-order analysis**, by looking at pairs of variables, we look at the so-called **total interaction index**(TII), measuring the influence of a pair of variables together with all its interactions.  
+
 The main idea of this method is to decompose the `output variance` into the contributions associated with each input factor. In order to quantify the importance of an input factor X on the variance of Y, feed ![formula](https://render.githubusercontent.com/render/math?math=X_i) and see the changes in the variance of Y. The foundations of the variance-based approach are based on two mathematical facts:
  <img src="https://user-images.githubusercontent.com/31917400/85045296-b0e8c400-b186-11ea-9414-d4517b26b72a.jpg"/>
 
@@ -249,6 +251,8 @@ Two measures of Sensitivity(importance for an input) are:
  <img src="https://user-images.githubusercontent.com/31917400/85211216-d91b2300-b33e-11ea-804b-f45c9a251b17.jpg"/>
 
 The well-known merit of variance-based method is its ability to quantify the individual covariate contribution and the contribution resulting from their interactions, independently from assumptions on the form of the input-output relation such as linearity, additivity, etc.  
+
+
 
 
 
