@@ -248,7 +248,7 @@ Two measures of Sensitivity(importance for an input) are:
    - var(y) - var( E[y| ![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...) ] ) = **E[** var(y|![formula](https://render.githubusercontent.com/render/math?math=x_2,x_3,...)) **]**: Leftover variance caused by other predictors and their interactions?
  <img src="https://user-images.githubusercontent.com/31917400/85211216-d91b2300-b33e-11ea-804b-f45c9a251b17.jpg"/>
 
-
+The well-known merit of variance-based method is its ability to quantify the individual covariate contribution and the contribution resulting from their interactions, independently from assumptions on the form of the input-output relation such as linearity, additivity, etc.  
 
 
 
