@@ -258,8 +258,7 @@ The well-known merit of variance-based method is its ability to quantify the ind
 
 __The main-effect index__ is relevant to feature prioritization in the context of identifying the most influential feature since fixing a feature with the highest index value would lead to the greatest reduction in the output variation. __The total-effect index__ is relevant to feature fixing (or screening) in the context of identifying the **least influential set of features** since fixing any feature that has a very small total-effect index value would not lead to significant reduction in the output variation. __The difference between the two indices__ of a given feature is used to quantify the amount of all **`interactions involving that feature`** in the model output.
 
-In principle, the estimation of the Sobol indices defined above can be directly carried out using Monte Carlo estimation, using two nested loops for the computation of the **conditional variance** and **expectation** appeared in both equations.
- <img src="https://user-images.githubusercontent.com/31917400/85304570-cf5f0000-b4a3-11ea-96ea-53f2dc79ef4d.jpg"/>
+In principle, the estimation of the Sobol indices defined above can be directly carried out using Monte Carlo estimation, using two nested loops for the computation of the **conditional variance** and **expectation** appeared in both equations. <img src="https://user-images.githubusercontent.com/31917400/85304570-cf5f0000-b4a3-11ea-96ea-53f2dc79ef4d.jpg"/>
 
 
 
