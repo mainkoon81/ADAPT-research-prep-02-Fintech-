@@ -264,7 +264,7 @@ __The main-effect index__ is relevant to feature prioritization in the context o
 The MonteCarlo procedure allows the estimation of both sets of indices - `S_i`, `S_ti` using a single set of random samples generated from the assumed probability distributions of **X**. 
  - 1. For a given matrix `D` (M obvs * N features), and a vector of output `Y` (M target), **Use an appropriate learning algorithm** to train the model and obtain predictions f(`D`).... so the analysis is already done?   
  - 2. For the assumed probability distributions, MonteCarlo bootstrap two independent sample matrix `A` and `B` of **X** in feature size. Yes, discard the target variable. How many iteration? It's up to you.
- - 3. For the `i-th feature`, construct a new matrix consisting of all columns of `A`, **exacpt** `i-th feature` and this is taken from `B`. Then calculate `S_i`, `S_ti`, using MonteCarlo integration and the new matrix.  
+ - 3. For the `i-th feature`, construct a new matrix consisting of all columns of `A`, **exacpt** `i-th feature` and this is taken from `B`. Then for each feature, calculate `S_i`, `S_ti`, using MonteCarlo integration and the new matrix.  
 
 
 
