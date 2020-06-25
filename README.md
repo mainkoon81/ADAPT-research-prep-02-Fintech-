@@ -137,6 +137,7 @@ Causal Effect
  <img src="https://user-images.githubusercontent.com/31917400/84555368-6db8cc00-ad14-11ea-9d6f-f3893d5aa44b.jpg"/>
 
 Confounding Control? Killing some covariates?
+ - Collinearity can be viewed as an extreme case of confounding, when essentially the same variable is entered into a relation equation twice, or when two variables contain exactly the same information as two other variables, and so on.
  - Let's say we might be interested in the mean difference in the outcome if everybody was treated versus if no one was treated. To estimate this from observational data, we will need to make several assumptions, including ignorability. 
  - **Ignorability** refers to the `treatment assignment` **being "independent"(no relation to) of potential outcomes** conditional on some set of covariates X.
  <img src="https://user-images.githubusercontent.com/31917400/84569337-9f19b200-ad7d-11ea-8614-9fed2901eee6.jpg"/>
